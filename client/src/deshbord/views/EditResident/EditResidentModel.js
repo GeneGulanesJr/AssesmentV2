@@ -38,9 +38,63 @@ const EditInternationalModal = (props) => {
                 <ModalBody>
                   <h3 style={{color:"black"}}>Update Resident </h3>
                 <Form>
-            
+
+
+                    <h2>APPLICATION FOR
+                        STUDENT DRIVER'S PERMIT / DRIVER'S LICENSE / CONDUCTOR'S LICENSE (APL) :</h2>
                     <Row>
-                  
+                        <Col className="pr-md-1" md="6">
+                            <FormGroup>
+                                <label>District Office </label>
+                                <Input
+                                    defaultValue={props.resident.distrctOffice}
+                                    name="districtOffice"
+                                    onChange={changeHandler}
+
+                                    type="text"
+                                />
+                            </FormGroup>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="pr-md-1" md="6">
+                            <FormGroup>
+                                <label>Family Name</label>
+                                <Input
+                                    defaultValue={props.resident.familyname}
+                                    name="familyname"
+                                    onChange={changeHandler}
+                                    type="text"
+                                />
+                            </FormGroup>
+                        </Col>
+                        <Col className="px-md-1" md="6">
+                            <FormGroup>
+                                <label>First Name</label>
+                                <Input
+                                    defaultValue={props.resident.firstname}
+                                    name="firstname"
+                                    onChange={changeHandler}
+                                    type="text"
+                                />
+
+                            </FormGroup>
+                        </Col>
+                        <Col className="px-md-1" md="6">
+                            <FormGroup>
+                                <label>Middle Name</label>
+                                <Input
+                                    defaultValue={props.resident.middlename}
+                                    name="middlename"
+                                    onChange={changeHandler}
+                                    type="text"
+                                />
+
+                            </FormGroup>
+                        </Col>
+
+                    </Row>
+                    <Row>
                       <Col className="px-md-1" md="6">
                         <FormGroup>
                           <label>Status </label>

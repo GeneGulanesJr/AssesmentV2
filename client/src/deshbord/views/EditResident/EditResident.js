@@ -78,6 +78,8 @@ const EditFlight =()=>{
               <Card>
                 <CardBody>
                   <div className="internationalFlight">
+
+
                     <div className='d-flex'>
                       <h1 style={{color:"#3578E5", textTransform:"capitalize", fontWeight:"600"}}>Edit Residents <span style={{fontSize:"14px"}}>( All )</span></h1>
                       <div className="d-flex">
