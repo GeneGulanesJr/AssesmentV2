@@ -90,7 +90,7 @@ class GenereateInvoice extends React.Component{
                       <thead className="text-primary">
                         <tr>
                           <th>Name</th>
-                          <th>Nature of Admission </th>
+                          <th>Status </th>
                           <th>Patient Status  </th>
                           <th>Day Admitted</th>
                           <th>Action</th>
@@ -102,7 +102,7 @@ class GenereateInvoice extends React.Component{
                        return(
                           <tr>
                             <td> {single.name} </td>
-                            <td > {single.natureOfAdmission} </td>
+                            <td > {single.status} </td>
                             <td > {single.patientStatus} </td>
                             <td > {single.dateOfAdmission}</td>
                             <td > <div class="dropdown">

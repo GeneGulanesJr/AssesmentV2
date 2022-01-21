@@ -32,7 +32,7 @@ const AddFlight =(props)=> {
                     className={classnames({ active: activeTab === '1' })}
                     onClick={() => { toggle('1'); }}
                 >
-                <span style={{color:"white", cursor:"pointer"}}> CREATE RESIDENTS</span>
+                <span style={{color:"white", cursor:"pointer"}}> Apply For Registration</span>
                 </NavLink>
                 </NavItem>
             </Nav>

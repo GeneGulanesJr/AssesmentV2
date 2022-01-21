@@ -95,11 +95,11 @@ const EditFlight =()=>{
                     <Table className="tablesorter  pb-5 mb-5" responsive>
                       <thead className="text-success">
                         <tr>
-                          <th>Name</th>
-                          <th>Nature of Admission </th>
-                          <th>Patient Status  </th>
-                          <th>Day Admitted</th>
-                          <th>Patient Reports</th>
+                          <th>FirstName</th>
+                          <th>Last Name </th>
+                          <th>Registration Status  </th>
+                        
+                       
                           <th>Action</th>
 
                         </tr>
@@ -112,11 +112,11 @@ const EditFlight =()=>{
                        return(
                          
                           <tr>
-                            <td> {single.name} </td>
-                            <td > {single.natureOfAdmission} </td>
-                            <td > {single.patientStatus} </td>
-                            <td > {single.dateOfAdmission}</td>
-                            <td > {}</td>
+                            <td> {single.firstname} </td>
+                            <td > {single.familyname} </td>
+                            <td > {single.status} </td>
+                          
+            
                             <td > <div class="dropdown">
                                 <a cla ss="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   <Button color="success" size="sm">Action</Button>

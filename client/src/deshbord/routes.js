@@ -12,14 +12,14 @@ if(localStorage.getItem('resident-token')){
 var routes = [
   {
     path: "/add-resident",
-    name: "Create Residents",
+    name: "Registration",
     icon: "tim-icons icon-calendar-60",
     component: AddResident,
     layout: "/admin"
   },
   {
     path: "/all-resident",
-    name: "All Resident ",
+    name: "Registration List ",
     rtlName: "قائمة الجدول",
     icon: "tim-icons icon-pencil",
     component: EditResident,
