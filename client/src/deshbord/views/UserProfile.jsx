@@ -39,11 +39,13 @@ class UserProfile extends React.Component {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <h5 className="title">
                         {window.localStorage.getItem('resident-token')?
-                        JWTDecoder(window.localStorage.getItem('resident-token')).name:"Jack"
+                        JWTDecoder(window.localStorage.getItem('resident-token')).status:"False"
+                    
                         }
+                     
                       </h5>
-                    <h5>Resident Profiled</h5>
-                      <h5>{2}</h5>
+                
+                  
                       <h5 className="title">
                         {window.localStorage.getItem('resident-token')?
                         JWTDecoder(window.localStorage.getItem('resident-token')).email:"example@gmial.com"
