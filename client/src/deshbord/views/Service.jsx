@@ -28,7 +28,7 @@ class Service extends React.Component {
                 <CardBody>
                   <CardText />
                   <div className="author">
-       Services
+                    <img src={require("./assesment/Animated.gif")} alt="Logo" />;
                   </div>
                 </CardBody>
 

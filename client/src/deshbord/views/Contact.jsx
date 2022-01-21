@@ -28,7 +28,7 @@ class Contact extends React.Component {
                 <CardBody>
                   <CardText />
                   <div className="author">
-             <img src='./assesment/Banner.png'></img>
+                      <img src={require("./assesment/Contact.png")} alt="Logo" />;
                   </div>
                 </CardBody>
 

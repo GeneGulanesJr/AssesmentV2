@@ -12,7 +12,7 @@ import {
   Col
 } from "reactstrap";
 
-
+import Banner from "./assesment/Banner.png"
 
 class LandingPage extends React.Component {
 
@@ -28,7 +28,8 @@ class LandingPage extends React.Component {
                 <CardBody>
                   <CardText />
                   <div className="author">
-             <img src='./assesment/Banner.png'></img>
+
+                    <img src={require("./assesment/Banner.png")} alt="Logo" />;
                   </div>
                 </CardBody>
 
